@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#AFFFE2"
-    tools:context=".Level1Activity" >
+    tools:context=".Level1Activity">
 
     <ImageView
         android:id="@+id/buttonListen"
@@ -32,6 +32,61 @@
         android:layout_marginStart="5dp"
         android:layout_marginTop="47dp"
         android:text="Άκου Ξανά"
+        android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/buttonListen"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="43dp"
+        android:fontFamily="@font/roboto_mono_bold"
+        android:text="Επίπεδο 1"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="133dp"
+        android:layout_height="184dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cat"
+        app:srcCompat="@drawable/alepou_removebg_preview" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="149dp"
+        android:layout_height="186dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="180dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/gata_removebg_preview" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="133dp"
+        android:layout_height="184dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="94dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        app:srcCompat="@drawable/arkoudaki_removebg_preview" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="149dp"
+        android:layout_height="186dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="94dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView8"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:srcCompat="@drawable/elephantaki_removebg_preview" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
