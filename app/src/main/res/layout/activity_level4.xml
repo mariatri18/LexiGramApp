@@ -43,7 +43,7 @@
         android:layout_marginStart="104dp"
         android:layout_marginTop="43dp"
         android:fontFamily="@font/roboto_mono_bold"
-        android:text="Επίπεδο 1"
+        android:text="Επίπεδο 4"
         android:textColor="#000000"
         android:textSize="20sp"
         app:layout_constraintStart_toEndOf="@+id/textView5"
@@ -63,8 +63,8 @@
         android:id="@+id/wrong1"
         android:layout_width="136dp"
         android:layout_height="180dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="188dp"
+        android:layout_marginStart="196dp"
+        android:layout_marginTop="464dp"
         android:background="#00FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -77,14 +77,14 @@
         android:layout_marginTop="180dp"
         app:layout_constraintStart_toEndOf="@+id/imageView6"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/gata_removebg_preview" />
+        app:srcCompat="@drawable/pontiki_removebg_preview" />
 
     <Button
         android:id="@+id/correct"
         android:layout_width="140dp"
         android:layout_height="181dp"
-        android:layout_marginStart="204dp"
-        android:layout_marginTop="184dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="188dp"
         android:background="#00FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -93,18 +93,18 @@
         android:id="@+id/imageView8"
         android:layout_width="133dp"
         android:layout_height="184dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="94dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="92dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView6"
-        app:srcCompat="@drawable/arkoudaki_removebg_preview" />
+        app:srcCompat="@drawable/ippopotamos_removebg_preview" />
 
     <Button
         android:id="@+id/wrong3"
         android:layout_width="136dp"
         android:layout_height="180dp"
-        android:layout_marginStart="204dp"
-        android:layout_marginTop="464dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="460dp"
         android:background="#00FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -113,8 +113,8 @@
         android:id="@+id/wrong"
         android:layout_width="136dp"
         android:layout_height="180dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="472dp"
+        android:layout_marginStart="204dp"
+        android:layout_marginTop="184dp"
         android:background="#00FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -127,7 +127,7 @@
         android:layout_marginTop="94dp"
         app:layout_constraintStart_toEndOf="@+id/imageView8"
         app:layout_constraintTop_toBottomOf="@+id/imageView7"
-        app:srcCompat="@drawable/elephantaki_removebg_preview" />
+        app:srcCompat="@drawable/fidi_removebg_preview" />
 
     <TextView
         android:id="@+id/textView3"

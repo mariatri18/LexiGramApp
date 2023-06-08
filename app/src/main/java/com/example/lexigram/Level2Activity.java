@@ -77,7 +77,7 @@ public class Level2Activity extends AppCompatActivity {
     }
 
     public void openActivityLevel() {
-        Intent intent = new Intent(this, Level2Activity.class);
+        Intent intent = new Intent(this, Level3Activity.class);
         startActivity(intent);
     }
 

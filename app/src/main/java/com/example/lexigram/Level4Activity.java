@@ -8,16 +8,15 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Level1Activity extends AppCompatActivity {
-
+public class Level4Activity extends AppCompatActivity {
     private Button correct;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_level1);
+        setContentView(R.layout.activity_level4);
 
-        final  MediaPlayer catSound = MediaPlayer.create(this, R.raw.gata);
+        final MediaPlayer alepouSound = MediaPlayer.create(this, R.raw.alepou);
         final  MediaPlayer wrongSound = MediaPlayer.create(this, R.raw.wrong);
         final  MediaPlayer correctSound = MediaPlayer.create(this, R.raw.correct);
 
@@ -31,12 +30,12 @@ public class Level1Activity extends AppCompatActivity {
         correct = (Button) findViewById(R.id.correct);
 
 
-        catSound.start();
+        alepouSound.start();
 
         playCat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                catSound.start();
+                alepouSound.start();
             }
         });
 
@@ -75,11 +74,12 @@ public class Level1Activity extends AppCompatActivity {
                 openActivityLevel();
             }
         });
-
     }
 
     public void openActivityLevel() {
-        Intent intent = new Intent(this, Level2Activity.class);
+        Intent intent = new Intent(this, Level5Activity.class);
         startActivity(intent);
     }
+
+
 }
