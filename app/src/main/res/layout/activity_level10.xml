@@ -43,7 +43,7 @@
         android:layout_marginStart="104dp"
         android:layout_marginTop="43dp"
         android:fontFamily="@font/roboto_mono_bold"
-        android:text="Επίπεδο 8"
+        android:text="Επίπεδο 10"
         android:textColor="#000000"
         android:textSize="20sp"
         app:layout_constraintStart_toEndOf="@+id/textView5"
@@ -77,14 +77,14 @@
         android:layout_marginTop="180dp"
         app:layout_constraintStart_toEndOf="@+id/imageView6"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/kerasi" />
+        app:srcCompat="@drawable/lemoni" />
 
     <Button
         android:id="@+id/correct"
         android:layout_width="140dp"
         android:layout_height="181dp"
-        android:layout_marginStart="212dp"
-        android:layout_marginTop="468dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="188dp"
         android:background="#00FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -113,8 +113,8 @@
         android:id="@+id/wrong"
         android:layout_width="136dp"
         android:layout_height="180dp"
-        android:layout_marginStart="204dp"
-        android:layout_marginTop="184dp"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="468dp"
         android:background="#00FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

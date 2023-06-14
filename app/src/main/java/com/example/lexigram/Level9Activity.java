@@ -9,7 +9,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Level8Activity extends AppCompatActivity {
+public class Level9Activity extends AppCompatActivity {
 
     private Button correct;
 
@@ -17,9 +17,9 @@ public class Level8Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_level8);
+        setContentView(R.layout.activity_level9);
 
-        final MediaPlayer portokaliSound = MediaPlayer.create(this, R.raw.portokali);
+        final MediaPlayer kerasiaSound = MediaPlayer.create(this, R.raw.kerasia);
         final  MediaPlayer wrongSound = MediaPlayer.create(this, R.raw.wrong);
         final  MediaPlayer correctSound = MediaPlayer.create(this, R.raw.correct);
 
@@ -33,12 +33,12 @@ public class Level8Activity extends AppCompatActivity {
         correct = (Button) findViewById(R.id.correct);
 
 
-        portokaliSound.start();
+        kerasiaSound.start();
 
         playCat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                portokaliSound.start();
+                kerasiaSound.start();
             }
         });
 
@@ -80,7 +80,7 @@ public class Level8Activity extends AppCompatActivity {
     }
 
     public void openActivityLevel() {
-        Intent intent = new Intent(this, Level9Activity.class);
+        Intent intent = new Intent(this, Level10Activity.class);
         startActivity(intent);
     }
 
