@@ -12,8 +12,8 @@
         android:id="@+id/switch1"
         android:layout_width="98dp"
         android:layout_height="43dp"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="112dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="52dp"
         android:scaleX="2"
         android:scaleY="2"
         app:layout_constraintStart_toEndOf="@+id/textView"
@@ -47,14 +47,14 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.25" />
+        app:layout_constraintVertical_bias="0.857" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="80dp"
-        android:layout_marginTop="532dp"
+        android:layout_marginTop="600dp"
         android:fontFamily="@font/roboto_mono_bold"
         android:text="Ήχος"
         android:textColor="#000000"
@@ -66,14 +66,18 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="301dp"
-        android:layout_height="267dp"
+        android:layout_width="326dp"
+        android:layout_height="392dp"
         android:layout_marginStart="40dp"
         android:layout_marginTop="28dp"
+        android:layout_marginEnd="45dp"
         android:fontFamily="@font/roboto_mono_bold"
-        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&quot;  Kiosse Maria  Triantafullidou Maria  Vouta Katerina"
+        android:text="Είμαστε μια ομάδα μεταπτυχιακών φοιτητών Πληροφορικής και συνεργαζόμαστε για να σχεδιάσουμε, να δημιουργήσουμε και να παράγουμε έργα για τα οποία είμαστε περήφανοι.
+Στόχος αυτού του έργου είναι να προσφέρει μια μοναδική εμπειρία στα μικρά παιδιά προκειμένου να εμπλουτίσουν το λεξιλόγιό τους με παιγνιώδη και διασκεδαστικό τρόπο.
+Όλα είναι θέμα ευκολίας. Έχουμε σκεφτεί τα πάντα, από το πως θα μάθουν τα παιδιά να προφέρουν σωστά τη λέξη μέχρι και το επίπεδο δυσκολίας που θα είναι ανάλογο του κάθε παιδιού. Οπότε, το μόνο που έχετε να κάνετε εσείς είναι να κατεβάσετε την εφαρμογή και να παίξετε!!! Βούτα Κατερίνα Κιοσσε Μαρία  Τριανταφυλλίδου Μαρία "
         android:textColor="#000000"
-        android:textSize="17sp"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
